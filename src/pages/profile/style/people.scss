@@ -1,0 +1,133 @@
+.people-wrapp {
+  display: flex;
+  padding: 75px 124px 45px 124px;
+  background-color: #F8F8FD;
+  background-image: url("../../../assets/Pattern2.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+
+  .people-say {
+    display: flex;
+    flex-direction: column;
+    width: 422px;
+    margin-right: 32px;
+
+    h2 {
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      font-size: 48px;
+      color: #222222;
+      margin: 0;
+      padding: 0;
+
+      span {
+        color: #0e94ce;
+      }
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 160%;
+      color: #25324B;
+      margin: 0 0 42px 0;
+      padding: 0;
+    }
+
+    .button-people {
+      width: 200px;
+      padding: 13px 28px;
+      border-radius: 6px;
+    }
+  }
+
+  .response-wrapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .response {
+      display: flex;
+      gap: 32px;
+      margin-bottom: 42px;
+
+      .response-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 353px;
+        height: 411px;
+        border-radius: 10px;
+        background-color: #FFFFFF;
+        box-shadow: 0 4px 16px rgba(37, 50, 75, 0.15);
+        padding: 30px 20px;
+
+        .response-item-top {
+          display: flex;
+          flex-direction: column;
+
+          .response-title-wrapp {
+            display: flex;
+            margin-bottom: 22px;
+
+            img {
+              width: 72px;
+              height: 72px;
+              margin-right: 22px;
+            }
+
+            .response-description {
+              display: flex;
+              flex-direction: column;
+
+              .response-name {
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 24px;
+                color: #25324B;
+                margin: 0;
+                padding: 0;
+              }
+
+              .response-city {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 100%;
+                color: #4640DE;
+                margin: 8px 0;
+                padding: 0;
+              }
+
+              .response-date {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 100%;
+                color: #7C8493;
+                margin: 0;
+                padding: 0;
+              }
+            }
+          }
+
+          p {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 160%;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+          }
+        }
+
+        img {
+          width: 95px;
+        }
+      }
+    }
+
+    img {
+      width: 204px;
+    }
+  }
+}

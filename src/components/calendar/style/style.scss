@@ -1,0 +1,69 @@
+.cal-wrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .ticket {
+    width: 294px;
+    height: 50px;
+    margin-bottom: 27px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+    color: #4640DE;
+    border: 1px solid #CCCCF5;
+    border-radius: 0;
+    background-color: #FFFFFF;
+    outline: none;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #F8F8FD;
+    }
+  }
+}
+
+
+
+.react-calendar {
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+
+  &__tile {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 160%;
+    color: #25324B;
+    //padding: 12px;
+    border-radius: 8px;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: #f0f0f0;
+      cursor: pointer;
+    }
+
+    &--now {
+      background: #E3E4FF;
+      color: #4640DE;
+      border-radius: 50%;
+    }
+
+    &--active {
+      background-color: #4640DE;
+      color: white;
+      border-radius: 50%;
+    }
+  }
+
+  &__navigation button {
+    color: #4640DE;
+    font-weight: bold;
+    font-size: 16px;
+
+    &:hover {
+      background-color: #f3f3f3;
+    }
+  }
+}

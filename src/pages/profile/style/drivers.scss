@@ -1,0 +1,37 @@
+.drivers-wrapp {
+  display: flex;
+  flex-direction: column;
+  margin: 75px 124px 0 124px;
+
+  .line {
+    height: 1px;
+    background-color: #D6DDEB;
+    margin-bottom: 75px;
+  }
+
+  .drivers-title-wrapp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 160%;
+      color: #4640DE;
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+      border: none;
+      background-color: #FFFFFF;
+      outline: none;
+    }
+  }
+
+  .driver-item-wrapp {
+    display: flex;
+    margin: 11px 0 75px 0;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+}

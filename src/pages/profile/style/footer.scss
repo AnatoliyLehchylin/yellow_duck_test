@@ -1,0 +1,129 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #202430;
+  padding: 64px 124px 44px 124px;
+}
+
+.footer-content-wrapp {
+  display: flex;
+  margin-bottom: 64px;
+
+  .footer-logo-wrapp {
+    display: flex;
+    flex-direction: column;
+    width: 376px;
+    margin-right: 40px;
+
+    img {
+      width: 160px;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 160%;
+      color: #D6DDEB;
+      margin: 39px 0 0 0;
+      padding: 0;
+    }
+  }
+
+  .footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #D6DDEB;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+
+    &:first-child {
+      color: #FFFFFF;
+      font-weight: 600;
+      font-size: 18px;
+      cursor: default;
+    }
+  }
+
+  .footer-column {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-right: 50px;
+
+    .footer-phone {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      img {
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 160%;
+        color: #A8ADB7;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
+    .input-wrapp {
+      display: flex;
+      align-items: center;
+
+      input {
+        width: 223px;
+        height: 50px;
+        margin-right: 8px;
+        background-color: #FFFFFF;
+        color: black;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+
+        &::placeholder {
+          color: #A8ADB7;
+        }
+      }
+    }
+  }
+}
+
+.footer-line {
+  height: 2px;
+  background-color: #FFFFFF;
+  opacity: 10%;
+  margin-bottom: 40px;
+}
+
+.footer-copyright {
+  display: flex;
+  justify-content: space-between;
+
+  p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 160%;
+    color: #D0D4EA;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer-link {
+    display: flex;
+    gap: 24px;
+
+    img {
+      width: 32px;
+      height: 32px;
+      cursor: pointer;
+    }
+  }
+}

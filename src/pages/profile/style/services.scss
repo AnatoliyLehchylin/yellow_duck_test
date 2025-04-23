@@ -1,0 +1,43 @@
+.services-wrapp {
+  display: flex;
+  flex-direction: column;
+  margin: 0 124px;
+
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #515B6F;
+    margin: 0;
+    padding: 0;
+  }
+
+  .services-info-wrapp {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 0 75px 0;
+
+    .services-item {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 48px;
+        height: 48px;
+        margin-right: 12px;
+      }
+
+      p {
+        display: flex;
+        width: 100%;
+        font-family: 'Lato', sans-serif;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 120%;
+        color: #25324B;
+        margin: 0;
+        padding: 9.5px 0;
+      }
+    }
+  }
+}

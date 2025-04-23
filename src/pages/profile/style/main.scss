@@ -1,0 +1,140 @@
+.main-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 75px 124px;
+
+  .aside {
+    display: flex;
+    flex-direction: column;
+
+    .country-wrapp {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      margin: 8px 0 24px 0;
+
+      .country-item {
+        display: flex;
+        align-items: center;
+
+        img {
+          width: 42px;
+          height: 32px;
+          margin-right: 15px;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 160%;
+          color: #25324B;
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+
+    .button-country {
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 160%;
+      color: #4640DE;
+      margin: 0 0 24px 0;
+      padding: 0;
+      cursor: pointer;
+      border: none;
+      background-color: #FFFFFF;
+      outline: none;
+
+      .show-country {
+        display: flex;
+        align-items: center;
+
+        .arrow {
+          width: 14px;
+          height: 7px;
+          margin-left: 21px;
+        }
+
+        p {
+          margin: 0;
+          padding: 0;
+        }
+      }
+    }
+
+    .calendar-wrapp {
+      width: 350px;
+      border: 1px solid #D6DDEB;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+      padding: 16px;
+      margin-top: 8px;
+    }
+  }
+
+  .line {
+    height: 1px;
+    background-color: #D6DDEB;
+    margin-bottom: 64px;
+  }
+}
+
+.carrier {
+  display: flex;
+  flex-direction: column;
+  width: 752px;
+
+  .chapter-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #515B6F;
+    margin: 0 0 24px 0;
+    padding: 0;
+  }
+}
+
+.chapter-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 120%;
+  color: #202430;
+  margin: 0 0 16px 0;
+  padding: 0;
+}
+
+.cos-net {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 40px;
+
+  .cos-item {
+    display: flex;
+    border: 1px solid #4640DE;
+    padding: 8px;
+
+    img {
+      width: 20px;
+      height: 20px;
+      margin-right: 12px;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 160%;
+      color: #4640DE;
+      vertical-align: middle;
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+    }
+  }
+}
+
+.bus-wrapp {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

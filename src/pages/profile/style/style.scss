@@ -1,9 +1,9 @@
-@import "header";
-@import "main";
-@import "drivers";
-@import "services";
-@import "people";
-@import "footer";
+@use "header";
+@use "main";
+@use "drivers";
+@use "services";
+@use "people";
+@use "footer";
 
 .main-container {
   width: 100%;
